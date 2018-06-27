@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace TestApp
 {
+    /* This isn't really a logic class, as it only gets information about what vehicle the user wants to create. 
+     * It shouldn't be necessary to have a class on its own to interact with the user. Simply have it as a method in the main-class */
     class Logics
     {
+        // these variables become local variables(method variables) in the UserPrompt()
         public string doors;
         public string wheels;
         public string model;
